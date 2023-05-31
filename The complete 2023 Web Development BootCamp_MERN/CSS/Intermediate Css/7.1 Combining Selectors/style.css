@@ -1,0 +1,30 @@
+/* Write your code here: */
+
+/*apply group selectors*/
+h1, h2 {
+	color: blueviolet;
+}
+
+/* child of another selector (parent)  or parent and child*/
+.box > .done {
+	color: firebrick;
+}
+
+/*Ancestor and Decendant
+.list li {
+	color: blue;
+}
+/* Chaining*/
+li.done {
+	color: seagreen;
+}
+/* OR */
+/*div .done {
+	color: seagreen;
+}*/
+
+
+/* Combining Combiners */
+ul p.done {
+	font-size: 0.5rem;
+}
